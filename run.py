@@ -1,5 +1,7 @@
 import os
-os.mkdir('result')
+try:
+ os.mkdir('result')
+except:pass
 if __name__ == "__main__":
         try:
                 __import__("gxrex").lisensi()
