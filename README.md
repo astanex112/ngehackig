@@ -29,8 +29,6 @@ pip install mechanize
 
 cd $HOME
 
-rm -rf 4MBF
-
 git clone https://github.com/aorec-xd/GXREX
 
 Cara Menjalankan Scripts
