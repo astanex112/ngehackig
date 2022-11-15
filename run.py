@@ -2,8 +2,8 @@ import os
 try:
  os.mkdir('result')
 except:pass
-if _name_ == "_main_":
+if __name__ == "__main__":
         try:
-                _import_("gassken").AORECGANTENG()
+                __import__("gassken").AORECGANTENG()
         except Exception as e:
                 exit(str(e))
